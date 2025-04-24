@@ -14,6 +14,7 @@
 - OTP generation and validation (for demo purposes)
 - SessionStorage used to store OTP and user data
 - Multi-page flow (`index.html` → `page.html`)
+- Demo : https://loanverify.netlify.app/
 
 ## 📸 Screen Record
 
