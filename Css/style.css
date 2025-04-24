@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.main-container {
+    background-color: #fff;
+    padding: 25px 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+  
+.main-container p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header {
+    color: #333; /* Dark text color */
+    text-align: center;
+    padding: 30px 0; /* Padding around the text */
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px; /* Slight spacing between letters */
+    border-bottom: 3px solid #ddd; /* Subtle border at the bottom */
+    text-transform: uppercase; /* Uppercase text for a professional look */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+}
+
+
+header:hover {
+    color: #3f51b5; 
+    transition: color 0.3s ease;
+}
+
+.loan-amounts {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;  /* Space between the two inputs */
+    margin-top: 10px;
+}
+
+.loan-amounts .input-container {
+    flex: 1; /* This ensures that both fields take up equal space */
+}
+
+.loan-amounts input {
+    width: 100%; /* Make the input fields fill up the space within each container */
+}
+
+.loan-amounts label {
+    display: block;
+    margin-bottom: 5px;  /* Space between label and input */
+}
+
+
+form label {
+    font-weight: 600;
+    color: #333;
+    display: block;
+    margin-bottom: 3px;  
+}
+  
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px 10px;  
+    font-size: 15px;
+    border: 1.3px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+  
+input:focus {
+    border-color: #1976d2;
+    outline: none;
+}
+  
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+button[type="button"] {
+    background-color: #1565c0;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+}
+  
+button[type="button"]:hover {
+    background-color: #031c41;
+    transform: scale(1.02);
+}
+  
+h4 {
+    margin-top: 15px;
+    color: #2e89af;
+    text-align: center;
+}
+  
+.btn-grp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 8px;
+}
+  
+.btn-grp button[type="submit"] {
+    background-color: #0d47a1;
+    color: white;
+    flex: 1;
+}
+  
+.btn-grp button[type="submit"]:hover {
+    background-color: #031c41;
+}
+  
+.btn-grp button[type="reset"] {
+    background-color:#1565c0;
+    color: white;
+    flex: 1;
+}
+  
+.btn-grp button[type="reset"]:hover {
+    background-color: #e3f2fd;
+    color: #333;
+}

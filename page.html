@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/page.css">
+    <script src="./Js/page.js" defer></script>
+    <title>LoanVerify</title>
+</head>
+<body>
+    <div class="body">
+        <div class="main-container">
+            <h3>Bank Loan Application Form</h3>
+    
+
+            <p>Dear <b id="userName">,</b></p>
+            <p>Thank you for inquiry.A four digit verification number has been sent to your email:</p>
+            <h3 id="email"></h3>
+            <p>please enter it in following box and submit for confirmation</p>
+        
+            
+
+            <label for="otp">Enter The OTP:</label>
+          
+            <input type="text" name="otp" id="otp" required>
+            
+
+            <div class="btn-grp">
+                <button type="submit" id="submit">Validate</button>
+                <button type="reset" onclick="window.location.href='index.html'">Back</button>
+            </div>
+            
+
+            <strong style="color: green;"></strong>
+        </div>
+    </div>
+</body>
+</html>

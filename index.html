@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./Css/style.css">
+        <script src="./Js/index.js" defer></script>
+        <title>LoanVerify</title>
+    </head>
+    <body>
+        <div class="body">
+            <div class="main-container">
+                <header>
+                    <h1>LoanVerify</h1>
+                </header>
+                <p style="margin-top: 15px;"><span style="color: red;">*</span> Kindly enter the correct
+                    information in the loan application form.</p>
+                <br>
+                <form action="page.html" id="form">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" autocomplete="off" required>
+                    <br><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" autocomplete="off" required>
+                    <br><br>
+                    <label for="pan">PAN: </label>
+                    <input type="text" id="pan" autocomplete="off" required name="pan">
+                    <br><br>
+                    <div class="loan-amounts">
+                        <div class="input-container">
+                            <label for="loan-amount">Loan Amount (RS): </label>
+                            <input type="text" id="loan-amount" name="loan-amount" autocomplete="off" required>
+                        </div>
+                        <div class="input-container">
+                            <label for="Loan-time">Loan Tenure (Years): </label>
+                            <input type="text" name="Loan-time" id="loan-time" autocomplete="off" required>
+                        </div>
+                    </div>
+                    
+                    <button type="button">Calculate EMI</button>
+
+                    <h4 id="emi-display">Estimated EMI : ₹0 /Months</h4>
+
+                    <div class="btn-grp">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
